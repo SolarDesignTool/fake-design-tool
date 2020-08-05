@@ -1,7 +1,14 @@
 {
   "name": "fake-design-tool",
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "description": "Simulate design tool project functionality",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolarDesignTool/fake-design-tool.git"
+  },
+  "author": "lijin1991 <lijin1991@aol.com>",
   "private": false,
+  "main": "dist/Card.js",
   "babel": {
     "presets": [
       "@babel/preset-react"
@@ -40,8 +47,5 @@
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/preset-react": "^7.10.4"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
