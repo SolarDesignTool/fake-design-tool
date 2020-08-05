@@ -1,6 +1,6 @@
 {
   "name": "fake-design-tool",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "babel": {
     "presets": [
@@ -40,5 +40,6 @@
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/preset-react": "^7.10.4"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
