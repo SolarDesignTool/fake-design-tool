@@ -1,6 +1,6 @@
 {
   "name": "fake-design-tool",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Simulate design tool project functionality",
   "repository": {
     "type": "git",
@@ -8,7 +8,7 @@
   },
   "author": "lijin1991 <lijin1991@aol.com>",
   "private": false,
-  "main": "dist/Card.js",
+  "main": "dist/DesignTool.js",
   "babel": {
     "presets": [
       "@babel/preset-react"

@@ -1,15 +1,22 @@
 import React from 'react';
-import Card from './components/Card'
+import { DesignTool } from './components/DesignTool'
 import './App.css';
 
 function App() {
+  const parameters = {
+    internalReferenceId: Math.floor(Math.random() * 10000),
+    salespersonName: 'Li Jin',
+    projectId: 'random project id',
+    jwtToken: 'random token'
+  }
   return (
     <div className="App">
-      <Card>
-        <div style={{ height: 200}}>
-          Card Content
-        </div>
-      </Card>
+      <DesignTool
+        internalReferenceId={parameters.internalReferenceId}
+        salespersonName={parameters.salespersonName}
+        projectId={parameters.projectId}
+        jwtToken={parameters.jwtToken}
+      />
     </div>
   );
 }
