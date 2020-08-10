@@ -1,20 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './DesignTool.css';
 
 const DesignTool = (props) => {
-  const { internalReferenceId, salespersonName, projectId, jwtToken } = props;
-  const [newToken, setNewToken] = useState('');
-
-  const generateNewToken = () => {
-    var token           = '';
-    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    var charactersLength = characters.length;
-    for ( var i = 0; i < 156; i++ ) {
-      token += characters.charAt(Math.floor(Math.random() * charactersLength));
-    }
-    setNewToken(token);
-  }
-
+  const { internalReferenceId, salespersonName, projectId, jwtToken, newToken, generateNewToken } = props;
   return (
     <div className="container">
       <div className="values">

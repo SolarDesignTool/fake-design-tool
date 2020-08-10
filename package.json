@@ -47,5 +47,8 @@
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/preset-react": "^7.10.4"
+  },
+  "publishConfig":{
+    "registry": "https://solardesigntool.jfrog.io/artifactory/api/npm/lyra-host-local/"
   }
 }
