@@ -1,5 +1,5 @@
-import React from 'react';
-// import './FakeDesignTool.css';
+import * as React from 'react';
+// import { FakeDesignToolProps } from './index';
 
 const FakeDesignTool = (props: any) => {
   const { internalReferenceId, salespersonName, projectId, jwtToken, generateNewTokenCallback } = props;

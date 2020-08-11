@@ -1,11 +1,24 @@
 {
   "compilerOptions": {
+    "outDir": "./lib",
     "target": "es5",
-    "outDir": "./dist/",
+    "module": "commonjs",
     "noImplicitAny": true,
-    "module": "es6",
-    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "declaration": false,
+    "sourceMap": true,
     "jsx": "react",
-    "allowJs": true
-  }
+    "typeRoots": [
+      "index.d.ts",
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "./src/**/*.tsx",
+    "./src/**/*.ts", "index.d.ts", "index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
